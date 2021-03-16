@@ -10,6 +10,12 @@ Big thanks to cepheus for [BIG SCREEN Blaseball](https://holmesmr.github.io/Blas
 
 * [Click Here to Install Compact BSB](styles/compact-bsb.user.css)
 
+## Troubleshooting
+
+* Try deleting the blaseball styles and reinstalling them! Remember to install [BIG SCREEN Blaseball](https://holmesmr.github.io/Blaseball-Userstyles/#big-screen-blaseball) first, and then [Compact BSB](styles/compact-bsb.user.css)
+
+* I believe there is another commonly used userstyle, `Big Blaseball`, that is not compatible with CompactBSB
+
 ## Comparisons
 
 A few screenshots to compare between layouts for normal blaseball, BIG SCREEN Blaseball, and BIG SCREEN Blaseball + Compact BSB
