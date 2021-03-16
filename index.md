@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## I made a thing!
 
 You can use the [editor on GitHub](https://github.com/theVDude/BlaseballCompact/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Instructions
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Follow the easy to follow instructions to install [BIG SCREEN Blaseball](https://holmesmr.github.io/Blaseball-Userstyles/#instructions)
 
-```markdown
-Syntax highlighted code block
+* [Click Here to Install Compact BSB](styles/compact-bsb.user.css)
 
-# Header 1
-## Header 2
-### Header 3
+## Comparisons
 
-- Bulleted
-- List
+A few screenshots to compare between layouts for normal blaseball, BIG SCREEN Blaseball, and BIG SCREEN Blaseball + Compact BSB
 
-1. Numbered
-2. List
+#Normal Blaseball
+![Normal Blaseball](images/blaseball.png)
 
-**Bold** and _Italic_ and `Code` text
+#BIG SCREEN Blaseball
+![BIG SCREEN Blaseball](images/bigscreen.png)
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/theVDude/BlaseballCompact/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#BIG SCREEN Blaseball + Compact BSB
+![Compact BSB](images/compactbsb.png)
