@@ -1,8 +1,8 @@
 ## I made a thing!
 
-You can use the [editor on GitHub](https://github.com/theVDude/BlaseballCompact/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I loved big screen blaseball, but it's not really built to show 12 games at a time. So I spent a bit of time reworking a few things, removing some stuff, moving things around, and ended up with what we've got here!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Big thanks to cepheus for [BIG SCREEN Blaseball](https://holmesmr.github.io/Blaseball-Userstyles/#big-screen-blaseball), which you'll need installed to use this userstyle!
 
 ## Instructions
 
@@ -22,3 +22,5 @@ A few screenshots to compare between layouts for normal blaseball, BIG SCREEN Bl
 
 ### BIG SCREEN Blaseball + Compact BSB
 ![Compact BSB](images/compactbsb.png)
+
+There are a few small issues that haven't bothered me enough to fix, but I'll work on getting fixed up now that I'm sharing this! If you notice anything, feel free to message me at thevdude#6881 on discord and I'll try to take a look at it.
