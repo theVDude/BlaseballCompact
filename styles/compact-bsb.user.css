@@ -85,6 +85,19 @@
     .Widget-ScoreBacking {
         flex-direction: row;
     }
+    
+    /* fix game preview on homepage */
+    .Bulletin-Widget .GameWidget-ScoreName{
+        display: flex;
+    }
+    
+    .Bulletin-Widget .GameWidget-ScoreTeamInfo {
+        justify-content: flex-start;
+    }
+    
+    .Bulletin-Widget .GameWidget-ScoreRecord {
+        margin-right: 20px;
+    }
 
 
     /* taken from media query, use this for full screen instead of just when under 1080 width */
