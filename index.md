@@ -14,11 +14,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 A few screenshots to compare between layouts for normal blaseball, BIG SCREEN Blaseball, and BIG SCREEN Blaseball + Compact BSB
 
-#Normal Blaseball
+### Normal Blaseball
 ![Normal Blaseball](images/blaseball.png)
 
-#BIG SCREEN Blaseball
+### BIG SCREEN Blaseball
 ![BIG SCREEN Blaseball](images/bigscreen.png)
 
-#BIG SCREEN Blaseball + Compact BSB
+### BIG SCREEN Blaseball + Compact BSB
 ![Compact BSB](images/compactbsb.png)
