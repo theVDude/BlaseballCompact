@@ -76,14 +76,14 @@
     .GameWidget-ScoreBet-Triangle {
         border-width: 9px 0 9px 9px;
     }
-    .GameWidget-ScoreBet {
-        direction: ltr;
-    }
     .GameWidget-ScoreName {
         display: none;
     }
     .Widget-ScoreBacking {
         flex-direction: row;
+    }
+    .GameWidget-ScoreBet, .GameWidget-ScoreNumber {
+        direction: ltr;
     }
     
     /* fix game preview on homepage */
