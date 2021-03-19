@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.8
+@version     0.0.9
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -77,7 +77,12 @@
         border-width: 9px 0 9px 9px;
     }
     .GameWidget-ScoreName {
-        display: none;
+        width:0;
+        height:0;
+        font-size:0;
+    }
+    .BlinkingRedLight {
+        margin:0
     }
     .Widget-ScoreBacking {
         flex-direction: row;
@@ -289,9 +294,6 @@
     }
     .theme-light .GameWidget-Outcome {
         background: hsla(0, 0%, 89%, .71)
-    }
-    .GameWidget-ScoreName {
-        font-size: 22px
     }
     .GameWidget.IsComplete .GameWidget-Log {
         display: none
