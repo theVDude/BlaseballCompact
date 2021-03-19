@@ -29,4 +29,4 @@ A few screenshots to compare between layouts for normal blaseball, BIG SCREEN Bl
 ### BIG SCREEN Blaseball + Compact BSB
 ![Compact BSB](images/compactbsb.png)
 
-There are a few small issues that haven't bothered me enough to fix, but I'll work on getting fixed up now that I'm sharing this! If you notice anything, feel free to message me at thevdude#6881 on discord and I'll try to take a look at it.
+There are a few small issues that haven't bothered me enough to fix, but I'll work on getting fixed up now that I'm sharing this! If you notice anything, feel free to message me at thevdude#6881 on discord and I'll try to take a look at it. :) Stay safe
