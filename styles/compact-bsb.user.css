@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.9
+@version     0.0.10
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -77,22 +77,30 @@
         border-width: 9px 0 9px 9px;
     }
     .GameWidget-ScoreName {
-        width:0;
-        height:0;
-        font-size:0;
+        width: 0;
+        height: 0;
+        font-size: 0;
     }
     .BlinkingRedLight {
-        margin:0
+        margin: 0
     }
     .Widget-ScoreBacking {
         flex-direction: row;
     }
-    .GameWidget-ScoreBet, .GameWidget-ScoreNumber {
+    .GameWidget-ScoreBet,
+    .GameWidget-ScoreNumber {
         direction: ltr;
     }
-    
+    /* recover activity count */
+    .Widget-Log-Content {
+        font-size: 0;
+        height: 0;
+        min-height: 0;
+        margin-bottom: 0;
+    }
+
     /* fix game preview on homepage */
-    .Bulletin-Widget .GameWidget-ScoreName{
+    .Bulletin-Widget .GameWidget-ScoreName {
         display: flex;
     }
     .Bulletin-Widget .GameWidget-ScoreTeamInfo {
@@ -179,14 +187,6 @@
     .Widget-Log {
         grid-column: 2/3;
         grid-row: 3/4
-    }
-    .Widget-Log,
-    .Widget-Log-Header {
-        display: none
-    }
-    .Widget-Log-Content {
-        font-size: 14px;
-        margin-bottom: 0
     }
     .Widget-Log-Line {
         margin: 0
