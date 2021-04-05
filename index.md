@@ -16,6 +16,12 @@ Big thanks to cepheus for [BIG SCREEN Blaseball](https://holmesmr.github.io/Blas
 
 * I believe there is another commonly used userstyle, `Big Blaseball`, that is not compatible with CompactBSB
 
+## Recent Updates
+
+* Fix for homepage game widget
+
+* NOW INCLUDES SHARK ATTACKS (The graphic for the shark attacks should display as of v 0.0.13
+
 ## Comparisons
 
 A few screenshots to compare between layouts for normal blaseball, BIG SCREEN Blaseball, and BIG SCREEN Blaseball + Compact BSB
