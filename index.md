@@ -20,7 +20,9 @@ Big thanks to cepheus for [BIG SCREEN Blaseball](https://holmesmr.github.io/Blas
 
 * Fix for homepage game widget
 
-* NOW INCLUDES SHARK ATTACKS (The graphic for the shark attacks should display as of v 0.0.13
+* Displays play counter
+
+* NOW INCLUDES SHARK ATTACKS (The graphic for the shark attacks should display as of v 0.0.13)
 
 ## Comparisons
 
