@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.11
+@version     0.0.12
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -101,7 +101,9 @@
 
     /* fix game preview on homepage */
     .Bulletin-Widget .GameWidget-ScoreName {
-        display: flex;
+        width:auto;
+        height:auto;
+        font-size:24px;
     }
     .Bulletin-Widget .GameWidget-ScoreTeamInfo {
         justify-content: flex-start;
