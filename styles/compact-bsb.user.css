@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.13
+@version     0.0.14
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -56,10 +56,10 @@
         padding: 0 10px;
         grid-template-columns: 45px auto 45px;
     }
-    .GameWidget-ScoreTeamInfo {
+    .GameWidget .GameWidget-ScoreTeamInfo {
         justify-content: space-evenly;
     }
-    .GameWidget-WinChance {
+    .GameWidget .GameWidget-WinChance {
         margin: 0;
     }
     .GameWidget-ScoreBet {
@@ -76,10 +76,13 @@
     .GameWidget-ScoreBet-Triangle {
         border-width: 9px 0 9px 9px;
     }
-    .GameWidget-ScoreName {
+    .GameWidget .GameWidget-ScoreName {
         width: 0;
         height: 0;
         font-size: 0;
+    }
+    .theme-light .GameWidget .GameWidget-ScoreName {
+        background: none !important;
     }
     .GameWidget-ScoreName .BlinkingRedLight {
         margin: 0
@@ -98,27 +101,14 @@
         min-height: 0;
         margin-bottom: 0;
     }
-    
+
     /* make shark work */
     .GameWidget > .Widget-Log {
         overflow: visible;
     }
     .Widget-Display-Body .Widget-AtBat,
     .Widget-Display-Body .Widget-Log {
-        z-index:1;
-    }
-
-    /* fix game preview on homepage */
-    .Bulletin-Widget .GameWidget-ScoreName {
-        width:auto;
-        height:auto;
-        font-size:24px;
-    }
-    .Bulletin-Widget .GameWidget-ScoreTeamInfo {
-        justify-content: flex-start;
-    }
-    .Bulletin-Widget .GameWidget-ScoreRecord {
-        margin-right: 20px;
+        z-index: 1;
     }
 
     /* taken from media query, use this for full screen instead of just when under 1080 width */
