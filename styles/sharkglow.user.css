@@ -1,13 +1,23 @@
 /* ==UserStyle==
-@name        SharkGlow
+@name        Consumer Contrast
 @namespace   thevdude.github
-@version     0.0.1
+@version     0.0.2
 @author      thevdude
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 ==/UserStyle== */
 @-moz-document domain("blaseball.com") {
-    .GameWidget .GameWidget-DunDun {
-        filter: drop-shadow(0 0 10px rgba(127, 127, 127, .4));
+    /* These are the same for light and dark, but I've split them incase you want to adjust them yourself. :) */
+    /* Light mode */
+    .theme-light .GameWidget .GameWidget-DunDun {
+        filter: drop-shadow(0 0 10px rgba(127, 127, 127, .5));
+    }
+    /* Dark mode */
+    .theme-dark .GameWidget .GameWidget-DunDun {
+        filter: drop-shadow(0 0 10px rgba(127, 127, 127, .5));
+    }
+    /* This should prevent the 'glow' from going off the main game widget hopefully! */
+    .GameWidget {
+        overflow: hidden;
     }
 }
