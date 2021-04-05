@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.14
+@version     0.0.15
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -12,7 +12,9 @@
         margin: 0;
     }
     .GameWidget {
-        flex: 0 1 25%;
+        flex: 0 1 24%;
+        padding: 0;
+        margin: 2px;
     }
     .GameWidget-Full-Live,
     .GameWidget-Full-Upcoming {
