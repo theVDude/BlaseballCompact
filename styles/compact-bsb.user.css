@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.12
+@version     0.0.13
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -97,6 +97,15 @@
         height: 0;
         min-height: 0;
         margin-bottom: 0;
+    }
+    
+    /* make shark work */
+    .GameWidget > .Widget-Log {
+        overflow: visible;
+    }
+    .Widget-Display-Body .Widget-AtBat,
+    .Widget-Display-Body .Widget-Log {
+        z-index:1;
     }
 
     /* fix game preview on homepage */
