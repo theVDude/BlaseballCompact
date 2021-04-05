@@ -41,6 +41,12 @@ A few screenshots to compare between layouts for normal blaseball, BIG SCREEN Bl
 
 ## Consumer Contrast
 
-I thought I could help make the CONSUMERS stand out a bit more! After you've got stylish installed, you can [click here to install Consumer Contrast](styles/sharkglow.user.css) which should (hopefully) work with any (or no) userstyles! Works in light mode too! Screenshots coming in the future!
+I thought I could help make the CONSUMERS stand out a bit more! After you've got stylish installed, you can [click here to install Consumer Contrast](styles/sharkglow.user.css) which should (hopefully) work with any (or no) userstyles! Works in light mode too!
+
+### Dark Mode
+![Dark Mode Consumer Contrast](images/contrast_dark.png)
+
+### Light Mode
+![Light Mode Consumer Contrast](images/contrast_light.png)
 
 If you notice any issues feel free to message me at thevdude#6881 on discord and I'll try to take a look at it. :) Stay safe :)
