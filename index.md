@@ -49,4 +49,10 @@ I thought I could help make the CONSUMERS stand out a bit more! After you've got
 ### Light Mode
 ![Light Mode Consumer Contrast](images/contrast_light.png)
 
+## Dumb Emoji Fix
+
+I made a thing to fix the Moist Talker's emoji in some browser/OS combinations! [Click here to install it](styles/emoji-fix.user.css).
+
+![moist talker emoji fix](images/emoji_fix.png)
+
 If you notice any issues feel free to message me at thevdude#6881 on discord and I'll try to take a look at it. :) Stay safe :)
