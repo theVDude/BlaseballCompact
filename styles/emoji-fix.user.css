@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Moist Talker Emoji Fix
 @namespace   thevdude.github
-@version     0.0.1
+@version     0.0.2
 @author      thevdude
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -10,9 +10,12 @@
     .GameWidget-ScoreLine[href="/team/eb67ae5e-c4bf-46ca-bbbc-425cd34182ff"] .GameWidget-ScoreTeamColorBar,
     .Team-Logo[style*="rgb(245, 254, 255)"],
     .Player-Team-Logo[style*="rgb(245, 254, 255)"],
-    .Leaderboard-Team-Color[style*="rgb(245, 254, 255)"]{
+    .Leaderboard-Team-Color[style*="rgb(245, 254, 255)"] .Leaderboard-Team-Emoji,
+    .Standings-Team-Color[style*="rgb(245, 254, 255)"] .Standings-Team-Emoji{
         font-size: 0;
     }
+    
+    /* Of course this one works differently. :( Opacity trick instead of font size I guess. */
     .Navigation-Icon-Link[href="/team/eb67ae5e-c4bf-46ca-bbbc-425cd34182ff"] {
         opacity: 0;
     }
