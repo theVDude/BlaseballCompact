@@ -55,4 +55,8 @@ I made a thing to fix the Moist Talker's emoji in some browser/OS combinations! 
 
 ![moist talker emoji fix](images/emoji_fix.png)
 
+## Better CoinBoss
+
+[Click here, you coward](styles/better-coinboss.user.css)
+
 If you notice any issues feel free to message me at thevdude#6881 on discord and I'll try to take a look at it. :) Stay safe :)
