@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Moist Talker Emoji Fix
 @namespace   thevdude.github
-@version     0.0.2
+@version     0.0.3
 @author      thevdude
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -11,7 +11,8 @@
     .Team-Logo[style*="rgb(245, 254, 255)"],
     .Player-Team-Logo[style*="rgb(245, 254, 255)"],
     .Leaderboard-Team-Color[style*="rgb(245, 254, 255)"] .Leaderboard-Team-Emoji,
-    .Standings-Team-Color[style*="rgb(245, 254, 255)"] .Standings-Team-Emoji{
+    .Standings-Team-Color[style*="rgb(245, 254, 255)"] .Standings-Team-Emoji,
+    .Recap-Blessing-Team[style*="rgb(245, 254, 255)"]{
         font-size: 0;
     }
     
