@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name        Blaseball Weather Callouts
+@namespace   thevdude.github
+@version     0.0.1
+@author      thevdude
+@homepageURL  https://thevdude.github.io/BlaseballCompact/
+@license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
+==/UserStyle== */
+
+@-moz-document domain("blaseball.com") {
+    /* Salmon Weather AT parks with salmon cannons */
+    .GameWidget[aria-label~="versus Moist Talkers"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Garages"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Crabs"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Mechanics"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Fridays"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Sunbeams"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Firefighters"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Flowers"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Georgias"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Spies"] .WeatherIcon#Salmon,
+    .GameWidget[aria-label~="versus Worms"] .WeatherIcon#Salmon {
+        box-shadow: rgb(242, 199, 227) 0px 0px 10px
+    }
+
+    /* Moist Talkers in Flooding */
+
+    .GameWidget[aria-label*="Moist Talkers"] .WeatherIcon#Flooding {
+        box-shadow: rgb(70, 95, 99) 0px 0px 10px;
+    }
+
+
+    /* Pies in Birds (needs separate matches to avoid matching Spies) */
+
+    .GameWidget[aria-label^="Pies"] .WeatherIcon#Birds,
+    .GameWidget[aria-label~="versus Pies"] .WeatherIcon#Birds {
+        box-shadow: yellow 0px 0px 10px;
+    }
+}
