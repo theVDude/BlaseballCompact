@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.15
+@version     0.0.16
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -80,8 +80,15 @@
     }
     .GameWidget .GameWidget-ScoreName {
         width: 0;
-        height: 0;
         font-size: 0;
+    }
+    .GameWidget .GameWidget-ScoreName::after {
+        font-size: 14px;
+        content:"\a0"
+    }
+    .GameWidget .GameWidget-ScoreName div[style^="font-size: 14px;"]{
+        margin: 0 8px;
+        font-size: 20px;
     }
     .theme-light .GameWidget .GameWidget-ScoreName {
         background: none !important;
