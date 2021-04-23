@@ -26,6 +26,8 @@ Big thanks to cepheus for [BIG SCREEN Blaseball](https://holmesmr.github.io/Blas
 
 * Small light mode fixes (v0.0.14)
 
+* Party Time Icons a bit happier (v0.0.16)
+
 ## Comparisons
 
 A few screenshots to compare between layouts for normal blaseball, BIG SCREEN Blaseball, and BIG SCREEN Blaseball + Compact BSB
