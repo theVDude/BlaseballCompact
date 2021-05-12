@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Better Blaseball Coinboss
 @namespace   thevdude.github
-@version     0.0.2
+@version     0.0.3
 @author      thevdude
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -12,5 +12,11 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50%;
+    }
+    
+    /* Make icons bigger on League Info page so you can see coinboss better */
+    .LeagueInfo-Icon {
+        height: 125px;
+        width: 125px;
     }
 }
