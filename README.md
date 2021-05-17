@@ -1,2 +1,2 @@
-# BlaseballCompact
-Just a simple userscript to extend functionality of `Big Screen Blaseball` a bit.
+# thevdude's blaseball userstyles
+Just a bunch of (hopefully useful) userstyles for blaseball
