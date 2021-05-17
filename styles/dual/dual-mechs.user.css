@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        Second Favorite - Mechanics
+@namespace   thevdude.github
+@version     0.0.1
+@author      thevdude
+@homepageURL  https://thevdude.github.io/BlaseballCompact/
+@license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
+==/UserStyle== */
+@-moz-document domain("blaseball.com") {
+    /* Now that the game elements are flex elements, we can use `order` on them. Default is 0, setting -1 moves them to the front. */
+    li.GameWidget:nth-of-type(1),
+    li.GameWidget[aria-label*="Mechanic"]{
+        order: -1;
+    }
+}
