@@ -18,15 +18,13 @@ Big thanks to cepheus for [BIG SCREEN Blaseball](https://holmesmr.github.io/Blas
 
 ## Recent Updates
 
-* Fix for homepage game widget
-
-* Displays play counter
-
 * NOW INCLUDES SHARK ATTACKS (The graphic for the shark attacks should display as of v 0.0.13)
 
 * Small light mode fixes (v0.0.14)
 
 * Party Time Icons a bit happier (v0.0.16)
+
+* Removed duplicated text for runs/calculations (v0.0.17)
 
 ## Comparisons
 
