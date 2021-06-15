@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.16
+@version     0.0.17
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -103,8 +103,9 @@
     .GameWidget-ScoreNumber {
         direction: ltr;
     }
-    /* recover activity count */
-    .Widget-Log-Content {
+    /* recover activity count, but hide other text */
+    .Widget-Log-Content,
+    .Widget-Log-Content div{
         font-size: 0;
         height: 0;
         min-height: 0;
