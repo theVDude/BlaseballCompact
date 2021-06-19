@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.17
+@version     0.0.18
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -119,6 +119,17 @@
     .Widget-Display-Body .Widget-AtBat,
     .Widget-Display-Body .Widget-Log {
         z-index: 1;
+    }
+    
+    /* Playoffs Fixes IDK */
+    .League-Games .PlayoffSetup-Header {
+        width:100%;
+    }
+    .League-Games .GameWidget:last-child {
+        margin-bottom:0;
+    }
+    ul.League-Games {
+        margin-bottom:40px;
     }
 
     /* taken from media query, use this for full screen instead of just when under 1080 width */
