@@ -10,6 +10,10 @@ I've wanted a nice way to keep track of a second team's games for a while now, s
 
 * Find the team you'd like to have 'pinned' to the second slot on game pages and install the userstyle for them!
 
+## Changelog
+
+* (0.0.2) Adds support for under/overbracket!
+
 ## Team Userstyles
 
 ### Wild High
