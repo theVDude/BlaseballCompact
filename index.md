@@ -18,13 +18,13 @@ Big thanks to cepheus for [BIG SCREEN Blaseball](https://holmesmr.github.io/Blas
 
 ## Recent Updates
 
-* NOW INCLUDES SHARK ATTACKS (The graphic for the shark attacks should display as of v 0.0.13)
-
-* Small light mode fixes (v0.0.14)
-
 * Party Time Icons a bit happier (v0.0.16)
 
 * Removed duplicated text for runs/calculations (v0.0.17)
+
+* Fix for Bracket Layout in the PostSeason (v0.0.18)
+
+* Remove the 'ledger' text from the game event feed (v0.0.19)
 
 ## Comparisons
 
