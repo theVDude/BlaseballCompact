@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.18
+@version     0.0.19
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -78,7 +78,8 @@
     .GameWidget-ScoreBet-Triangle {
         border-width: 9px 0 9px 9px;
     }
-    .GameWidget .GameWidget-ScoreName {
+    .GameWidget .GameWidget-ScoreName,
+    .GameWidget .Widget-Log .Widget-Log-Ledger {
         width: 0;
         font-size: 0;
     }
