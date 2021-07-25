@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name        show sun bar
+@namespace   thevdude.github
+@version     0.0.2
+@author      thevdude
+@homepageURL  https://thevdude.github.io/BlaseballCompact/
+@license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
+==/UserStyle== */
+@-moz-document domain("blaseball.com") {
+    /* These are the same for light and dark, but I've split them incase you want to adjust them yourself. :) */
+    /* Light mode */
+    .BossFightWidget-SunSun-Hidden {
+        opacity: 1;
+        display: flex;
+        animation: fadein 2s;
+    }
+    /* Dark mode */
+    .BossFightWidget-SunSun {
+        top: inherit;
+        bottom: 0;
+    }
+}
