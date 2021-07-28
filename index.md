@@ -18,13 +18,13 @@ Big thanks to cepheus for [BIG SCREEN Blaseball](https://holmesmr.github.io/Blas
 
 ## Recent Updates
 
-* Removed duplicated text for runs/calculations (v0.0.17)
-
 * Fix for Bracket Layout in the PostSeason (v0.0.18)
 
 * Remove the 'ledger' text from the game event feed (v0.0.19)
 
 * TGB fixed an issue with the mobile layout which broke a thing I was doing so I fixed my thing! (v0.0.20)
+
+* TEAM NAMES ARE BACK! Also some extra compressing in the vertical direction to save a bit more space. (v0.0.21)
 
 ## Comparisons
 
