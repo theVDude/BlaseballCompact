@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.20
+@version     0.0.21
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -78,21 +78,19 @@
     .GameWidget-ScoreBet-Triangle {
         border-width: 9px 0 9px 9px;
     }
-    .GameWidget .GameWidget-ScoreName,
     .GameWidget .Widget-Log .Widget-Log-Ledger {
         width: 0;
         font-size: 0;
     }
-    .GameWidget .GameWidget-ScoreName::after {
-        font-size: 14px;
-        content:"\a0"
+    .GameWidget .GameWidget-ScoreName {
+        font-size: 1rem;
+    }
+    .theme-light .GameWidget .GameWidget-ScoreName {
+        font-size: .9rem;
     }
     .GameWidget .GameWidget-ScoreName div[style^="font-size: 14px;"]{
         margin: 0 8px;
         font-size: 20px;
-    }
-    .theme-light .GameWidget .GameWidget-ScoreName {
-        background: none !important;
     }
     .GameWidget-ScoreName .BlinkingRedLight {
         margin: 0
@@ -111,6 +109,31 @@
         height: 0;
         min-height: 0;
         margin-bottom: 0;
+        padding: 0;
+    }
+    
+    .Widget-Log-PlayCount {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    /* Adjust padding a little bit */
+    .Widget-Log-Content {
+        padding: 5px;
+        min-height: 110px;
+    }
+
+    /* some grid spacing stuff for the elements in the gamelog body */
+    .Widget-Display-Body {
+        gap: 0 10px;
+        grid-template-rows: min-content auto;
+        height: 100%
+    }
+
+    /* not sure why this is broken but fix it */
+    .Widget-Log, .Widget-Upcoming-Bets {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
 
     /* make shark work */
@@ -184,7 +207,7 @@
         grid-column: 1/3
     }
     .Widget-ScoreBacking {
-        padding: 10px 0
+        padding: 10px 0 5px 0;
     }
     .Widget-ScoreLabel--Series + .GameWidget-ScoreLabel--Score {
         display: none
