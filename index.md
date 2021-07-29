@@ -26,6 +26,8 @@ Big thanks to cepheus for [BIG SCREEN Blaseball](https://holmesmr.github.io/Blas
 
 * TEAM NAMES ARE BACK! Also some extra compressing in the vertical direction to save a bit more space. (v0.0.21)
 
+* Small adjustments for lightmode <3 (v0.0.22)
+
 ## Comparisons
 
 A few screenshots to compare between layouts for normal blaseball, BIG SCREEN Blaseball, and BIG SCREEN Blaseball + Compact BSB
