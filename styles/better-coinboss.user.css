@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Better Blaseball Coinboss
 @namespace   thevdude.github
-@version     0.0.3
+@version     0.0.4
 @author      thevdude
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -9,6 +9,13 @@
 @-moz-document domain("blaseball.com") {
     .BigDeal-Equity {
         background: url(https://thevdude.github.io/BlaseballCompact/images/mEquity.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50%;
+    }
+
+    .BigDeal-Equity-Scattered {
+        background: url(https://thevdude.github.io/BlaseballCompact/images/mEquity2.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50%;
