@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.25
+@version     0.0.26
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -51,8 +51,8 @@
     .Widget-Bases {
         margin: 0 auto;
     }
-    .GameWidget-ScoreTeamColorBar,
-    .GameWidget-ScoreNumber {
+    li.GameWidget .GameWidget-ScoreTeamColorBar,
+    li.GameWidget .GameWidget-ScoreNumber {
         width: 35px;
         height: 35px;
         font-size: 22px;
@@ -228,23 +228,29 @@
     .Widget-ScoreLabel--Series + .GameWidget-ScoreLabel--Score {
         display: none
     }
-    .Widget-AtBat {
+
+    /* Only do these on main page, not in the watch live modal */
+    li.GameWidget .Widget-AtBat {
         grid-column: 2/3;
         grid-row: 2/3
     }
-    .Widget-Outs {
+    li.GameWidget .Widget-Outs {
         justify-content: flex-start
     }
-    .Widget-Outs-Label {
+    li.GameWidget .Widget-Outs-Label {
         font-size: 12px
     }
-    .Widget-Outs-DotList {
+    li.GameWidget .Widget-Outs-DotList {
         align-items: flex-start;
         height: 85%
     }
-    .Widget-Outs-Dots {
+    li.GameWidget .Widget-Outs-Dots {
         font-size: 24px;
         line-height: 14px
+    }
+    /* get rid of oddly placed weather icon on watch live modal */
+    .Modal.Watch .Watch-GameDisplay-Weather {
+        display:none;
     }
     .Widget-Log {
         grid-column: 2/3;
