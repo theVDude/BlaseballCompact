@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.26
+@version     0.0.27
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -190,15 +190,15 @@
         padding: 0;
         width: 100%
     }
-    .Widget-Display-Body .Widget-Bases {
+    li.GameWidget .Widget-Display-Body .Widget-Bases {
         grid-column: 1/2;
         grid-row: 1/2
     }
-    .Widget-Display-Body .Widget-Outs {
+    li.GameWidget .Widget-Display-Body .Widget-Outs {
         grid-column: 1/2;
         grid-row: 2/3
     }
-    .Widget-Display-Body .Widget-AtBat {
+    li.GameWidget .Widget-Display-Body .Widget-AtBat {
         grid-column: 2/3;
         grid-row: 1/2
     }
