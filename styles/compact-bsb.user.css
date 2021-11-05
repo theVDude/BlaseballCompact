@@ -1,14 +1,15 @@
 /* ==UserStyle==
 @name        Compact BSB
 @namespace   thevdude.github
-@version     0.0.27
+@version     0.0.28
 @author      thevdude (extends BIG SCREEN Blaseball by cepheus https://github.com/holmesmr)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 ==/UserStyle== */
 @-moz-document domain("blaseball.com") {
     .League-Schedule-Scroll-Wrapper + ul,
-    .League-Schedule-Scroll-Wrapper + ul > ul {
+    .League-Schedule-Scroll-Wrapper + ul > ul,
+    ul.League-Games {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
