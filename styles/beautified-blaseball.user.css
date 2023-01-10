@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name    	Beautified Blaseball
 @namespace   thevdude.github
-@version 	0.0.1
+@version 	0.0.2
 @author  	thevdude
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license 	Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
@@ -41,6 +41,11 @@
 /* Add scrollbar on extra inning box scores */
 .game-widget__box-score {
 	overflow-x:auto;
+}
+
+/* Also 4x3 grid on bet page */
+.bet-widget__list {
+    grid-template-columns: repeat(4, 1fr);
 }
 
 }
