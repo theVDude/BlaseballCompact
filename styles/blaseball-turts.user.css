@@ -9,10 +9,6 @@
 
 /*IF YOU ARE READING THIS YOU NEED STYLUS TO INSTALL THIS CONTENT https://github.com/openstyles/stylus*/
 
-/*THIS FORCES SOME ANIMATIONS ON SO DO NOT USE IF SENSITIVE TO MOTION*/
-
-/* also hi note from thevdude i just added the night weather from https://userstyles.world/style/1818/blaseball-tortles-unofficial thanks winterhazelly */
-
 @-moz-document domain("blaseball.com") {
 
   /* Make turtles */
