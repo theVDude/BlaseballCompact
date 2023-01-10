@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name     	(thevdude's unoffical) Blaseball Tortles
 @namespace	thevdude.github
-@version  	0.0.1
+@version  	0.0.2
 @author   	thevdude with turts by Myno (https://mmm.page/myno)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license  	do whatever idc
@@ -156,7 +156,8 @@
     scale: 1.7;
   }
 
-  .TeamLayout .TeamLogo {
+  .TeamLayout .TeamLogo,
+  .PlayerLayout .TeamLogo {
     margin: 0 auto;
   }
 
@@ -167,6 +168,14 @@
   /* close the gap up between fav team turt and team name */
   .user-header__choices__fav-team {
     gap: 1rem;
+  }
+
+  /* replace the monitor avatar on the messages page because it's funny */
+  img[src*="pavatar_theMonitor"] {
+	  content: url("https://thevdude.github.io/BlaseballCompact/images/turts/monitor.svg");
+	  border-radius: 50%;
+	  object-fit: cover;
+	  object-position: left 4px bottom -3px;
   }
 
 }
