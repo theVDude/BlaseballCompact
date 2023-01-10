@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name    	Beautified Blaseball
+@namespace   thevdude.github
+@version 	0.0.1
+@author  	thevdude
+@homepageURL  https://thevdude.github.io/BlaseballCompact/
+@license 	Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+==/UserStyle== */
+
+@-moz-document domain("blaseball.com") {
+/* Some layout changes and stuff just to make viewing games a nicer experience. */
+
+/* Make ticker always visable/not cause some scrolling on the page because of a 100vh on the nav bar */
+.ticker {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	padding: .5rem 0;
+  height: 2rem;
+}
+
+/* Add some padding/margins here so the ticker isn't covering anything from the main game content */
+.main__contents, .navigation {
+	padding-top: 2rem;
+}
+
+/* .schedule is 'sticky', lets make it sticky to the bottom of the ticker */
+.schedule {
+	margin-bottom: 0;
+  top: 2rem;
+}
+
+/* Put the games on the grid a bit closer together and a bit more space on the page (reduced padding) */
+.playtab__gamelist {
+	grid-gap: .5rem;
+}
+.playtab {
+	padding: 0 1rem;
+}
+
+/* Add scrollbar on extra inning box scores */
+.game-widget__box-score {
+	overflow-x:auto;
+}
+
+}
