@@ -12,6 +12,8 @@
 
 ## Recent Updates
 
+* v0.0.2 use a 4x3 grid on the bets page too :)
+
 * v0.0.1 hopefully it's good!
 
 ## Screenshot
