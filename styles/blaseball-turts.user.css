@@ -1,0 +1,176 @@
+/* ==UserStyle==
+@name     	(thevdude's unoffical) Blaseball Tortles
+@namespace	thevdude.github
+@version  	0.0.1
+@author   	thevdude with turts by Myno (https://mmm.page/myno)
+@homepageURL  https://thevdude.github.io/BlaseballCompact/
+@license  	do whatever idc
+==/UserStyle== */
+
+/*IF YOU ARE READING THIS YOU NEED STYLUS TO INSTALL THIS CONTENT https://github.com/openstyles/stylus*/
+
+/*THIS FORCES SOME ANIMATIONS ON SO DO NOT USE IF SENSITIVE TO MOTION*/
+
+/* also hi note from thevdude i just added the night weather from https://userstyles.world/style/1818/blaseball-tortles-unofficial thanks winterhazelly */
+
+@-moz-document domain("blaseball.com") {
+
+  /* Make turtles */
+  /* Fix box scores not having border on icon cells */
+  .game-widget__box-icon {
+    border-bottom: 1px solid #3d414c;
+    border-right: 1px solid #3d414c;
+  }
+
+  /*Go through each team emoji and replace the content with a link to the .svg for tortles*/
+
+  /*Chaotic Good*/
+  img[alt="🍬"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/mint.svg")
+  }
+
+  img[alt="💋"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/lover.svg")
+  }
+
+  img[alt="🌮"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/taco.svg")
+  }
+
+  img[alt="🌹"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/flower.svg")
+  }
+
+  img[alt="🗣"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/moist talker.svg")
+  }
+
+  img[alt="📱"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/mill.svg")
+  }
+
+  /*Awful Good*/
+  img[alt="🌞"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/sunbeam.svg")
+  }
+
+  img[alt="🦀"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/crab.svg")
+  }
+
+  img[alt="👟"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/shoe.svg")
+  }
+
+  img[alt="🚤"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/dale.svg")
+  }
+
+  img[alt="🥧"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/pie.svg")
+  }
+
+  img[alt="🐅"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/tiger.svg")
+  }
+
+  /*Awful Evil*/
+  img[alt="🔱"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/georgia.svg")
+  }
+
+  img[alt="🛠"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/mechanic.svg")
+  }
+
+  img[alt="🕵"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/spy.svg")
+  }
+
+  img[alt="👐"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/jazz hand.svg")
+  }
+
+  img[alt="🥩"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/steak.svg")
+  }
+
+  img[alt="🔥"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/firefighter.svg")
+  }
+
+  /*Chaotic Evil*/
+  img[alt="🍗"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/wild wing.svg")
+  }
+
+  img[alt="🎸"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/garage.svg")
+  }
+
+  img[alt="✨"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/magic.svg")
+  }
+
+  img[alt="🏝"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/friday.svg")
+  }
+
+  img[alt="🐌"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/worm.svg")
+  }
+
+  img[alt="🏋"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/lift.svg")
+  }
+
+  /* We don't need colored backgrounds */
+  .game-header__emoji,
+  .bet-widget__emoji,
+  .game-widget__box-icon,
+  .fav-team-logo,
+  .TeamLogo,
+  .League-DivisionCard-Logo {
+    background: #00000000 !important;
+  }
+
+  /*unset the image size so the turtles scale evenly (and aren't shrunk down because of taller/wider)*/
+  .game-header__emoji>img,
+  .bet-widget__emoji>img,
+  .League-DivisionCard-Logo>img,
+  .TeamLogo>img,
+  .fav-team-logo>img {
+    width: unset !important;
+    height: unset !important;
+  }
+
+  /* Except don't unset these, leave them how they are because they're tiny and unsetting it makes it unhappy */
+  .game-widget__box-icon>img {
+    scale: 1;
+  }
+
+  /* Scale down the icons depending on location */
+  .game-header__emoji>img,
+  .bet-widget__emoji>img,
+  .League-DivisionCard-Logo>img {
+    scale: .2;
+  }
+
+  .TeamLayout .TeamLogo>img {
+    scale: 1.7;
+  }
+
+  .TeamLayout .TeamLogo {
+    margin: 0 auto;
+  }
+
+  .fav-team-logo>img {
+    scale: .3;
+  }
+
+  /* close the gap up between fav team turt and team name */
+  .user-header__choices__fav-team {
+    gap: 1rem;
+  }
+
+}
