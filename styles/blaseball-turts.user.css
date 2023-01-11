@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name     	(thevdude's unoffical) Blaseball Tortles
 @namespace	thevdude.github
-@version  	0.0.3
+@version  	0.0.4
 @author   	thevdude with turts by Myno (https://mmm.page/myno)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license  	do whatever idc
@@ -184,5 +184,12 @@
 	  object-fit: cover;
 	  object-position: left 3px bottom 0px;
   }
+  /* and factsmachine too lol */
+  img[src*="pavatar_factsMachine.png"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/factsmachine.svg");
+	  border-radius: 50%;
+	  object-fit: cover;
+	  object-position: left 5px bottom -3px;
+  }  
 
 }
