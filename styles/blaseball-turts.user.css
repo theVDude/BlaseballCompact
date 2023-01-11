@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name     	(thevdude's unoffical) Blaseball Tortles
 @namespace	thevdude.github
-@version  	0.0.2
+@version  	0.0.3
 @author   	thevdude with turts by Myno (https://mmm.page/myno)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license  	do whatever idc
@@ -176,6 +176,13 @@
 	  border-radius: 50%;
 	  object-fit: cover;
 	  object-position: left 4px bottom -3px;
+  }
+  /* replace parker's icon too because lol */
+  img[src*="pavatar_parker.png"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/blaseball.svg");
+	  border-radius: 50%;
+	  object-fit: cover;
+	  object-position: left 3px bottom 0px;
   }
 
 }
