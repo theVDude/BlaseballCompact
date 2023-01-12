@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name     	(thevdude's unoffical) Blaseball Tortles
 @namespace	thevdude.github
-@version  	0.0.4
-@author   	thevdude with turts by Myno (https://mmm.page/myno)
+@version  	0.0.5
+@author   	thevdude with turts by Myno (https://mmm.page/myno) and dedsec-pony (https://dedsec-pony.tumblr.com/)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license  	do whatever idc
 ==/UserStyle== */
@@ -170,26 +170,41 @@
     gap: 1rem;
   }
 
-  /* replace the monitor avatar on the messages page because it's funny */
+  /* Replace message avatars because lol */
   img[src*="pavatar_theMonitor"] {
-	  content: url("https://thevdude.github.io/BlaseballCompact/images/turts/monitor.svg");
-	  border-radius: 50%;
-	  object-fit: cover;
-	  object-position: left 4px bottom -3px;
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/monitor.svg");
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: left 4px bottom -3px;
+    background-color:#2b80bb38;
   }
-  /* replace parker's icon too because lol */
   img[src*="pavatar_parker.png"] {
     content: url("https://thevdude.github.io/BlaseballCompact/images/turts/blaseball.svg");
-	  border-radius: 50%;
-	  object-fit: cover;
-	  object-position: left 3px bottom 0px;
+    border-radius: 50%;
+    object-fit: fill;
+    object-position: left 3px bottom 0px;
+    background-color:#332e4070;
   }
-  /* and factsmachine too lol */
   img[src*="pavatar_factsMachine.png"] {
     content: url("https://thevdude.github.io/BlaseballCompact/images/turts/factsmachine.svg");
-	  border-radius: 50%;
-	  object-fit: cover;
-	  object-position: left 5px bottom -3px;
-  }  
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: left 5px bottom -3px;
+    background-color:#0d2b2570;
+  }
+  /* Thank you dedsec-pony for the beat_reporturt! */
+  img[src*="pavatar_beatReporter.png"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/beat_reporturt.svg");
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: left 2px bottom -5px;
+    background-color:#58580770;
+  }
+  img[src*="pavatar_emergencyAlert.png"] {
+    content: url("https://thevdude.github.io/BlaseballCompact/images/turts/alert_stroke.svg");
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #c2522454
+  }
 
 }
