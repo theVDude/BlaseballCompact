@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name     	(thevdude's unoffical) Blaseball Tortles
 @namespace	thevdude.github
-@version  	0.0.5
+@version  	0.0.6
 @author   	thevdude with turts by Myno (https://mmm.page/myno) and dedsec-pony (https://dedsec-pony.tumblr.com/)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license  	do whatever idc
@@ -190,7 +190,7 @@
     border-radius: 50%;
     object-fit: cover;
     object-position: left 5px bottom -3px;
-    background-color:#0d2b2570;
+    background: linear-gradient(125deg, rgb(22, 43, 113) 23%, rgb(89, 44, 88) 45%, rgb(17, 19, 31) 79%);
   }
   /* Thank you dedsec-pony for the beat_reporturt! */
   img[src*="pavatar_beatReporter.png"] {
@@ -198,13 +198,13 @@
     border-radius: 50%;
     object-fit: cover;
     object-position: left 2px bottom -5px;
-    background-color:#58580770;
+    background: radial-gradient(circle, rgb(104, 30, 14) 5%, rgb(18, 20, 45) 69%);
   }
   img[src*="pavatar_emergencyAlert.png"] {
     content: url("https://thevdude.github.io/BlaseballCompact/images/turts/alert_stroke.svg");
     border-radius: 50%;
     object-fit: cover;
-    background-color: #c2522454
+    background-color: rgba(128, 10, 10, .57)
   }
 
 }
