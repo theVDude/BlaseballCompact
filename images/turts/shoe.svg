@@ -5,32 +5,8 @@
    viewBox="0 0 113.34554 129.56795"
    version="1.1"
    id="svg54"
-   sodipodi:docname="shoe.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview56"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="3.2165177"
-     inkscape:cx="187.46982"
-     inkscape:cy="46.012494"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="3832"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g2440" />
   <defs
      id="defs4">
     <style
@@ -107,8 +83,7 @@
                id="path10" />
             <g
                id="g24"
-               style="display:none"
-               inkscape:label="Shoe">
+               style="display:none">
               <path
                  class="cls-4"
                  d="M 53.71,2.08 55.89,0.15 A 0.76,0.76 0 0 1 57,0.36 C 57.75,1.55 59.57,3.9 60.26,4.71 58.26,4.34 55.13,4.1 54.01,3.29 53.58,3 53.29,2.39 53.71,2.08 Z M 25,24 c 0.32,0.53 6.51,6.41 27.94,2.17 6.48,-1.29 25.89,-5.36 26,-5.84 0,0 0.14,0.65 0.21,1.27 a 1.55,1.55 0 0 1 -0.26,1.18 c -1.69,2.11 -6.25,2.38 -12.78,3.25 l -0.93,0.12 -0.62,0.09 c -1,0.13 -4,0.56 -7.4,1.06 -4.71,0.68 -14.14,2 -14.41,2 A 31.63,31.63 0 0 1 31.25,28.41 C 26,27.16 25,24 25,24 Z"
@@ -202,7 +177,6 @@
        fill="#ffac33"
        d="m -72.374768,-2.0971989 c -2.388003,-18.6030451 -7.242836,0.9297354 -7.242836,0.9297354 0,0 -10.40886,-17.5734375 -8.020858,1.02960718 C -85.250459,18.465186 -93.00532,27.727816 -93.00532,27.727816 l 32.864129,-4.218643 c -0.0027,3.45e-4 -9.845576,-7.003328 -12.233577,-25.6063719 z"
        id="path736"
-       sodipodi:nodetypes="scsccs"
        style="stroke-width:2.69556" />
     <path
        fill="#c1694f"
@@ -217,7 +191,6 @@
     <g
        id="g3324"
        style="display:inline"
-       inkscape:label="Shoe"
        transform="matrix(1.4461974,0,0,1.4461974,-157.47679,-33.477181)">
       <path
          class="cls-4"
@@ -250,102 +223,112 @@
          id="path3322"
          style="fill:#ffbe1a;fill-opacity:1" />
     </g>
+  </g>
+  <g
+     id="g31393"
+     transform="matrix(1.4189702,-0.17327159,0.17327159,1.4189702,-1.4353746,36.508268)">
+    <path
+       fill="#f4900c"
+       d="M 14.174,17.075 6.75,7.594 3.028,17.075 Z"
+       id="path16823" />
+    <path
+       fill="#f4900c"
+       d="M 17.938,5.534 11.375,17.923 H 24.5 Z"
+       id="path16825" />
+    <path
+       fill="#f4900c"
+       d="m 21.826,17.075 7.424,-9.481 3.722,9.481 z"
+       id="path16827" />
+    <path
+       fill="#ffcc4d"
+       d="M 28.669,15.19 23.887,3.523 18.007,15.191 18,15.194 17.993,15.19 12.113,3.522 7.331,15.19 C 4.197,10.833 1.28,8.042 1.28,8.042 1.28,8.042 3,20.75 3,33 h 30 c 0,-12.25 1.72,-24.958 1.72,-24.958 0,0 -2.917,2.791 -6.051,7.148 z"
+       id="path16829" />
     <g
-       id="g12662"
-       inkscape:label="Crown"
-       transform="matrix(1.6551848,-0.20211595,0.20211595,1.6551848,-151.28932,9.1182148)">
+       id="g31363">
       <path
-         fill="#f4900c"
-         d="M 14.174,17.075 6.75,7.594 3.028,17.075 Z"
-         id="path9063" />
+         style="fill:none;stroke:#ffac33;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 9.45,22 c 0,0 2.538879,-5 8.55,-5 6.011121,0 8.463,5 8.463,5"
+         id="path27610" />
       <path
-         fill="#f4900c"
-         d="M 17.938,5.534 11.375,17.923 H 24.5 Z"
-         id="path9065" />
-      <path
-         fill="#f4900c"
-         d="m 21.826,17.075 7.424,-9.481 3.722,9.481 z"
-         id="path9067" />
-      <path
-         fill="#ffcc4d"
-         d="M 28.669,15.19 23.887,3.523 18.007,15.191 18,15.194 17.993,15.19 12.113,3.522 7.331,15.19 C 4.197,10.833 1.28,8.042 1.28,8.042 1.28,8.042 3,20.75 3,33 h 30 c 0,-12.25 1.72,-24.958 1.72,-24.958 0,0 -2.917,2.791 -6.051,7.148 z"
-         id="path9069" />
-      <circle
-         fill="#5c913b"
-         cx="17.957001"
-         cy="22"
-         r="3.688"
-         id="circle9071" />
-      <circle
-         fill="#981ceb"
-         cx="26.462999"
-         cy="22"
-         r="2.4119999"
-         id="circle9073" />
-      <circle
-         fill="#dd2e44"
-         cx="32.852001"
-         cy="22"
-         r="1.9859999"
-         id="circle9075" />
-      <circle
-         fill="#981ceb"
-         cx="9.4499998"
-         cy="22"
-         r="2.4119999"
-         id="circle9077" />
-      <circle
-         fill="#dd2e44"
-         cx="3.0610001"
-         cy="22"
-         r="1.9859999"
-         id="circle9079" />
-      <path
-         fill="#ffac33"
-         d="M 33,34 H 3 C 2.448,34 2,33.553 2,33 2,32.447 2.448,32 3,32 h 30 c 0.553,0 1,0.447 1,1 0,0.553 -0.447,1 -1,1 z m 0,-3.486 H 3 c -0.552,0 -1,-0.447 -1,-1 0,-0.553 0.448,-1 1,-1 h 30 c 0.553,0 1,0.447 1,1 0,0.553 -0.447,1 -1,1 z"
-         id="path9081" />
-      <circle
-         fill="#ffcc4d"
-         cx="1.447"
-         cy="8.0419998"
-         r="1.4069999"
-         id="circle9083" />
-      <circle
-         fill="#f4900c"
-         cx="6.75"
-         cy="7.5939999"
-         r="1.192"
-         id="circle9085" />
-      <circle
-         fill="#ffcc4d"
-         cx="12.113"
-         cy="3.523"
-         r="1.784"
-         id="circle9087" />
-      <circle
-         fill="#ffcc4d"
-         cx="34.553001"
-         cy="8.0419998"
-         r="1.4069999"
-         id="circle9089" />
-      <circle
-         fill="#f4900c"
-         cx="29.25"
-         cy="7.5939999"
-         r="1.192"
-         id="circle9091" />
-      <circle
-         fill="#ffcc4d"
-         cx="23.886999"
-         cy="3.523"
-         r="1.784"
-         id="circle9093" />
-      <circle
-         fill="#f4900c"
-         cx="17.938"
-         cy="5.5339999"
-         r="1.784"
-         id="circle9095" />
+         style="fill:none;stroke:#ffac33;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 9.45,22 c 0,0 2.538879,5 8.55,5 6.011121,0 8.463,-5 8.463,-5"
+         id="path27612" />
     </g>
+    <circle
+       fill="#5c913b"
+       cx="17.957001"
+       cy="22"
+       id="circle16831"
+       r="3.688" />
+    <circle
+       fill="#981ceb"
+       cx="26.462999"
+       cy="22"
+       r="2.4119999"
+       id="circle16833" />
+    <circle
+       fill="#dd2e44"
+       cx="32.852001"
+       cy="22"
+       r="1.9859999"
+       id="circle16835" />
+    <circle
+       fill="#981ceb"
+       cx="9.4499998"
+       cy="22"
+       r="2.4119999"
+       id="circle16837" />
+    <circle
+       fill="#dd2e44"
+       cx="3.0610001"
+       cy="22"
+       r="1.9859999"
+       id="circle16839" />
+    <path
+       fill="#ffac33"
+       d="M 33,34 H 3 C 2.448,34 2,33.553 2,33 2,32.447 2.448,32 3,32 h 30 c 0.553,0 1,0.447 1,1 0,0.553 -0.447,1 -1,1 z m 0,-3.486 H 3 c -0.552,0 -1,-0.447 -1,-1 0,-0.553 0.448,-1 1,-1 h 30 c 0.553,0 1,0.447 1,1 0,0.553 -0.447,1 -1,1 z"
+       id="path16841" />
+    <circle
+       fill="#ffcc4d"
+       cx="1.447"
+       cy="8.0419998"
+       r="1.4069999"
+       id="circle16843" />
+    <circle
+       fill="#f4900c"
+       cx="6.75"
+       cy="7.5939999"
+       r="1.192"
+       id="circle16845" />
+    <circle
+       fill="#ffcc4d"
+       cx="12.113"
+       cy="3.523"
+       r="1.784"
+       id="circle16847" />
+    <circle
+       fill="#ffcc4d"
+       cx="34.553001"
+       cy="8.0419998"
+       r="1.4069999"
+       id="circle16849" />
+    <circle
+       fill="#f4900c"
+       cx="29.25"
+       cy="7.5939999"
+       r="1.192"
+       id="circle16851" />
+    <circle
+       fill="#ffcc4d"
+       cx="23.886999"
+       cy="3.523"
+       r="1.784"
+       id="circle16853" />
+    <circle
+       fill="#f4900c"
+       cx="17.938"
+       cy="5.5339999"
+       r="1.784"
+       id="circle16855" />
   </g>
 </svg>
