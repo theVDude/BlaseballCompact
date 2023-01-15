@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name     	(thevdude's unoffical) Blaseball Tortles
 @namespace	thevdude.github
-@version  	0.0.7
+@version  	0.0.8
 @author   	thevdude with turts by Myno (https://mmm.page/myno) and dedsec-pony (https://dedsec-pony.tumblr.com/)
 @homepageURL  https://thevdude.github.io/BlaseballCompact/
 @license  	do whatever idc
@@ -54,7 +54,7 @@
     content: url("https://thevdude.github.io/BlaseballCompact/images/turts/crab.svg")
   }
 
-  img[alt="👟"] {
+  img[alt="👟"], img[src*="shoethieves"] {
     content: url("https://thevdude.github.io/BlaseballCompact/images/turts/shoe.svg")
   }
 
@@ -143,6 +143,10 @@
   /* Except don't unset these, leave them how they are because they're tiny and unsetting it makes it unhappy */
   .game-widget__box-icon>img {
     scale: 1;
+  }
+
+  .playtab__cover-cta-icon>img[src*="shoethieves"] {
+    scale: 1.5;
   }
 
   /* Scale down the icons depending on location */
